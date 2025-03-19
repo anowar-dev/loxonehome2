@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+#products1{
+    scroll-margin-top: 8rem;
+}
+.topPara{
+    max-width: 410px;
+    margin: 2.4rem auto;
+    color:rgb(13, 17, 22);
+    font-size: 1.12rem;
+    line-height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.8;
+    text-align: center;
+}
+.topPBara{
+    max-width: 560px;
+    color:rgb(13, 17, 22);
+    font-size: 1.12rem;
+    line-height: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.8;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top2section{
+    margin: 2.4rem auto;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.4rem;
+}
+.buynowlinik{
+    background: #03992E;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.buynowlinik:hover{
+    background: #01c037;
+}
+.buttons span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #03992E;
+}
+.btnunderlink{
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: rgb(13, 17, 22);
+    font-size: 12px;
+    position: relative;
+}
+.btnunderlink::after{
+    content: '';
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgb(13, 17, 22);
+}
+.topImgDiv{
+    text-align: center;
+}
+.imgLearge, .imgsmall{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgsmall img{
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+}
+.imgLearge img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+.subtitle{
+    color:rgb(13, 17, 22);
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+.subtitle.one{
+    max-width: 600px;
+}
+.bigImage{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sections{
+    padding: 5rem 0;
+    position: relative;
+}
+.sections.top{
+    box-shadow: 0 0 50px 70px #ffffff;
+}
+.sections.second{
+    position: relative;
+}  
+.controllImages{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+} 
+.controllSingle{
+    background: #E3F2F2;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    height: 24rem;
+    text-align: center;
+} 
+.contSubTitle{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(13, 17, 22);
+    font-family: 'Inter', sans-serif;
+}
+.conPara{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(13, 17, 22);
+    font-family: 'Inter', sans-serif;
+    margin-top: .6rem;
+    margin-bottom: 0.2rem;
+}
+.conImage{
+    margin-bottom: 1rem;
+}
+.hublink{
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: rgb(0, 137, 150);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+}
+.hublink::after{
+    content: '';
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgb(0, 137, 150);
+}
+.titleDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+.titleDiv span{
+    padding: .1rem 0.3rem;
+    background: rgb(0, 137, 150);
+    border-radius: 1.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #E3F2F2;
+    font-family: 'Inter', sans-serif;
+}
+.subtitle.controll{
+    max-width: 724px;
+}
