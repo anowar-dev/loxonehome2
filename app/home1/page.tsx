@@ -16,7 +16,7 @@ const Home1Page = () => {
         {/* Hero Section */}
         <section className="pt-56 md:pt-48 text-center">
           <div className="container">
-            <h1 className="text-5xl font-semibold">1Home Server Loxone</h1>
+            <h1 className="title text-5xl font-semibold">1Home Server Loxone</h1>
             <p className="topPara mt-4">The first device in the world to combine Loxone and Matter smart home standards.</p>
             <p className="topPBara mt-4">Choose between different mobile apps and voice interfaces to control your Loxone home. Set up complex automation in a simple way. Directly integrate 100s of Matter-certified IoT devices.</p>
 
@@ -192,12 +192,69 @@ const Home1Page = () => {
           
         </section>
 
+        {/* Blazing Section two */}
+        <section className="sections blazing text-center">
+          <h2 className="subtitle blazing">Blazing fast setup</h2>
+          <div className="bringContent">
+            <div className="bringDataTop">
+              <div className="bringSingle left">
+                <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.1738 33.1855C15.7877 33.1855 15.4696 32.9357 15.356 32.5722L13.516 26.0981C12.6074 22.9633 10.2222 20.5554 7.08741 19.6695L0.613333 17.8295C0.249877 17.7159 0 17.3979 0 17.0117C0 16.6255 0.249877 16.3075 0.613333 16.1939L7.08741 14.3539C10.2222 13.468 12.6301 11.0601 13.516 7.9253L15.356 1.45122C15.4696 1.08777 15.7877 0.837891 16.1738 0.837891C16.56 0.837891 16.878 1.08777 16.9916 1.45122L18.8316 7.9253C19.7175 11.0601 22.1254 13.468 25.2602 14.3539L31.7343 16.1939C32.0978 16.3075 32.3477 16.6255 32.3477 17.0117C32.3477 17.3979 32.0978 17.7159 31.7343 17.8295L25.2602 19.6695C22.1254 20.5554 19.7175 22.9633 18.8316 26.0981L16.9916 32.5495C16.878 32.9129 16.56 33.1628 16.1738 33.1628V33.1855ZM3.95259 16.989L7.54173 18.0112C11.2444 19.0562 14.084 21.9184 15.1516 25.6211L16.1738 29.2102L17.196 25.6211C18.2637 21.9184 21.1032 19.0789 24.8059 18.0112L28.3951 16.989L24.8059 15.9668C21.1032 14.8991 18.2637 12.0596 17.196 8.3569L16.1738 4.76777L15.1516 8.3569C14.084 12.0596 11.2444 14.8991 7.54173 15.9668L3.95259 16.989Z" fill="#181818"></path><path d="M40.2967 31.5272L37.6162 30.6413C36.3441 30.2097 35.3446 29.2102 34.913 27.9381L34.0271 25.2576C33.9135 24.9169 33.5954 24.667 33.2093 24.667C32.8231 24.667 32.5278 24.8942 32.3915 25.2576L31.5056 27.9381C31.074 29.2102 30.0745 30.2097 28.8024 30.6413L26.1219 31.5272C25.7811 31.6408 25.5312 31.9588 25.5312 32.345C25.5312 32.7312 25.7584 33.0265 26.1219 33.1628L28.8024 34.0487C30.0745 34.4803 31.074 35.4798 31.5056 36.7519L32.3915 39.4324C32.5051 39.7732 32.8231 40.023 33.2093 40.023C33.5954 40.023 33.8908 39.7959 34.0271 39.4324L34.913 36.7519C35.3446 35.4798 36.3441 34.4803 37.6162 34.0487L40.2967 33.1628C40.6374 33.0492 40.8873 32.7312 40.8873 32.345C40.8873 31.9588 40.6601 31.6635 40.2967 31.5272Z" fill="url(#paint0_linear_1790_110)"></path><defs><linearGradient id="paint0_linear_1790_110" x1="38.6692" y1="28.0794" x2="26.4694" y2="33.2337" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient></defs></svg>
+                <h4 className="bringsubTitle">Automatic 10-minute setup.</h4>
+                <p className="bringparaB">We connect to Loxone API and automatically import your full Loxone configuration so there is basically no technical knowledge required for the setup.</p>
+              </div>
+              <div className="bringSingle right">
+                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1790_102)"><path d="M36.7523 37.6179L22.7533 16.5134C22.535 16.1995 22.1468 16.0305 21.7586 16.1271C21.3704 16.2237 21.1035 16.5617 21.0793 16.9481L19.5508 42.1817C19.5508 42.5439 19.7206 42.8819 20.0603 43.051C20.1816 43.1234 20.3272 43.1476 20.4485 43.1476C20.6668 43.1476 20.8852 43.0751 21.055 42.9302L27.4358 37.304L35.7818 38.9943C36.1457 39.0667 36.5096 38.9218 36.728 38.6079C36.9221 38.294 36.9464 37.9077 36.728 37.5938L36.7523 37.6179Z" fill="url(#paint0_linear_1790_102)"></path><path d="M7.37723 39.3355C7.13461 39.3355 6.91625 39.2389 6.72216 39.0699C6.35824 38.7077 6.35824 38.1523 6.72216 37.7901L10.9922 33.5402C11.3561 33.178 11.9141 33.178 12.2781 33.5402C12.642 33.9024 12.642 34.4578 12.2781 34.82L8.00803 39.0699C7.8382 39.2389 7.59558 39.3355 7.37723 39.3355Z" fill="#181818"></path><path d="M45.1029 23.8089H39.086C38.5765 23.8089 38.1641 23.3984 38.1641 22.8913C38.1641 22.3843 38.5765 21.9738 39.086 21.9738H45.1029C45.6124 21.9738 46.0248 22.3843 46.0248 22.8913C46.0248 23.3984 45.6124 23.8089 45.1029 23.8089Z" fill="#181818"></path><path d="M6.93882 23.8089H0.921941C0.412447 23.8089 0 23.3984 0 22.8913C0 22.3843 0.412447 21.9738 0.921941 21.9738H6.93882C7.44831 21.9738 7.86076 22.3843 7.86076 22.8913C7.86076 23.3984 7.44831 23.8089 6.93882 23.8089Z" fill="#181818"></path><path d="M34.3538 12.484C34.1112 12.484 33.8928 12.3875 33.6987 12.2184C33.3348 11.8562 33.3348 11.3008 33.6987 10.9386L37.9688 6.68877C38.3327 6.32656 38.8907 6.32656 39.2546 6.68877C39.6186 7.05097 39.6186 7.60635 39.2546 7.96856L34.9846 12.2184C34.8148 12.3875 34.5721 12.484 34.3538 12.484Z" fill="#181818"></path><path d="M11.6464 12.484C11.4038 12.484 11.1855 12.3875 11.0156 12.2184L6.7456 7.96856C6.38168 7.60635 6.38168 7.05097 6.7456 6.68877C7.10952 6.32656 7.66754 6.32656 8.03146 6.68877L12.3015 10.9386C12.6654 11.3008 12.6654 11.8562 12.3015 12.2184C12.1317 12.3875 11.8891 12.484 11.6464 12.484Z" fill="#181818"></path><path d="M23.0001 7.79948C22.4906 7.79948 22.0781 7.38898 22.0781 6.88189V0.917585C22.0781 0.410499 22.4906 0 23.0001 0C23.5096 0 23.922 0.410499 23.922 0.917585V6.90604C23.922 7.41312 23.5096 7.82362 23.0001 7.82362V7.79948Z" fill="#181818"></path></g><defs><linearGradient id="paint0_linear_1790_102" x1="34.3793" y1="22.1106" x2="19.26" y2="26.2038" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient><clipPath id="clip0_1790_102"><rect width="46" height="46" fill="white"></rect></clipPath></defs></svg>
+                <h4 className="bringsubTitle">Intuitive control in a single dashboard.</h4>
+                <p className="bringparaB">Manage all your devices, automation and connected apps within one simple to use dashboard.</p>
+              </div>
+            </div>
+            <div className="bringSingle bottom">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_1790_78)"><path d="M16.5763 25.9217L16.2609 26.2963L10.3472 33.4124L9.77552 34.0826C9.61782 34.26 9.4207 34.3389 9.20386 34.3389C9.06588 34.3389 8.92789 34.3192 8.80962 34.2403C7.60716 33.4913 6.46385 32.5845 5.4191 31.5594C4.43348 30.5738 3.52672 29.4305 2.75794 28.1689C2.56081 27.8535 2.63966 27.4396 2.91564 27.203L3.58585 26.6314L10.6823 20.7177L11.0568 20.4023C11.2342 20.2446 11.4905 20.1854 11.727 20.2643C11.9439 20.3234 12.141 20.5008 12.2198 20.7177C12.5747 21.6836 13.1069 22.5115 13.7968 23.1817C14.4868 23.8914 15.295 24.4236 16.2412 24.7587C16.2412 24.7587 16.3397 24.7981 16.3989 24.8375C16.5368 24.9361 16.6551 25.0741 16.6945 25.2515C16.7537 25.4881 16.7142 25.7443 16.5566 25.9217H16.5763Z" fill="url(#paint0_linear_1790_78)"></path><path d="M34.2582 28.1689C33.4303 29.4699 32.5432 30.5935 31.5576 31.5594C30.5129 32.6042 29.3696 33.511 28.1868 34.2403C28.0488 34.3192 27.9306 34.3389 27.7926 34.3389C27.5757 34.3389 27.3786 34.26 27.2209 34.0826L26.6493 33.4124L20.7356 26.2963L20.4202 25.9217C20.2625 25.7443 20.223 25.4881 20.2822 25.2515C20.3413 25.015 20.5187 24.8376 20.7356 24.7587C21.6818 24.4236 22.5097 23.8914 23.1996 23.2014C23.9092 22.4918 24.4415 21.6639 24.7766 20.7571V20.7177C24.8751 20.4811 25.0328 20.3234 25.2694 20.2643C25.5059 20.2052 25.7622 20.2446 25.9396 20.4023L26.3141 20.7177L33.4303 26.6314L34.1005 27.203C34.3765 27.4396 34.4553 27.8535 34.2582 28.1689Z" fill="url(#paint1_linear_1790_78)"></path><path d="M34.1005 9.77735L33.4303 10.349L26.3141 16.2627L25.9396 16.5781C25.8016 16.6767 25.6439 16.7358 25.4665 16.7358C25.4074 16.7358 25.3285 16.7358 25.2694 16.7161C25.0328 16.6569 24.8554 16.4795 24.7766 16.2627C24.4415 15.3362 23.9092 14.4886 23.2193 13.7987C22.5097 13.089 21.6818 12.5568 20.7356 12.2217C20.5187 12.1428 20.3413 11.9654 20.2822 11.7289C20.223 11.4923 20.2625 11.2361 20.4202 11.0586L20.7356 10.6841L26.6493 3.56797L27.2209 2.89775C27.4575 2.62178 27.8714 2.54293 28.1868 2.74005C29.3696 3.46941 30.5129 4.37617 31.5773 5.44064C32.5827 6.44597 33.4697 7.54986 34.2582 8.81144C34.4553 9.12684 34.3765 9.5408 34.1005 9.77735Z" fill="url(#paint2_linear_1790_78)"></path><path d="M16.7142 11.7289C16.6551 11.9654 16.4974 12.1231 16.2806 12.202H16.2609C15.3147 12.5371 14.5065 13.0693 13.8165 13.7789C13.1266 14.4492 12.5944 15.2771 12.2396 16.243C12.1607 16.4795 11.9636 16.6372 11.7467 16.6964C11.6679 16.7161 11.6088 16.7161 11.5496 16.7161C11.3722 16.7161 11.2145 16.6569 11.0765 16.5584L10.702 16.243L3.60557 10.3293L2.93535 9.75763C2.65938 9.52109 2.58053 9.10713 2.77765 8.79173C3.52672 7.58928 4.41377 6.44597 5.43881 5.40121C6.46385 4.39589 7.60717 3.48912 8.82933 2.72034C9.14473 2.52322 9.55868 2.60207 9.79523 2.87804L10.3669 3.54826L16.2806 10.6644L16.596 11.0389C16.7537 11.2163 16.7931 11.4726 16.734 11.7092L16.7142 11.7289Z" fill="url(#paint3_linear_1790_78)"></path><path d="M18.4909 26.4343C14.1148 26.4343 10.5469 22.8663 10.5469 18.4902C10.5469 14.1141 14.1148 10.5461 18.4909 10.5461C22.8671 10.5461 26.435 14.1141 26.435 18.4902C26.435 22.8663 22.8671 26.4343 18.4909 26.4343ZM18.4909 12.0246C14.923 12.0246 12.0253 14.9223 12.0253 18.4902C12.0253 22.0581 14.923 24.9558 18.4909 24.9558C22.0589 24.9558 24.9566 22.0581 24.9566 18.4902C24.9566 14.9223 22.0589 12.0246 18.4909 12.0246Z" fill="#181818"></path><path d="M18.4901 37C8.29888 37 0 28.7011 0 18.4901C0 8.27917 8.29888 0 18.4901 0C28.6814 0 36.9803 8.29888 36.9803 18.4901C36.9803 28.6814 28.6814 36.9803 18.4901 36.9803V37ZM18.4901 1.47842C9.10708 1.47842 1.47842 9.10709 1.47842 18.4901C1.47842 27.8732 9.10708 35.5019 18.4901 35.5019C27.8732 35.5019 35.5019 27.8732 35.5019 18.4901C35.5019 9.10709 27.8732 1.47842 18.4901 1.47842Z" fill="#181818"></path></g><defs><linearGradient id="paint0_linear_1790_78" x1="29.786" y1="9.66152" x2="4.58413" y2="20.306" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient><linearGradient id="paint1_linear_1790_78" x1="29.786" y1="9.66152" x2="4.58413" y2="20.306" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient><linearGradient id="paint2_linear_1790_78" x1="29.786" y1="9.66152" x2="4.58413" y2="20.306" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient><linearGradient id="paint3_linear_1790_78" x1="29.786" y1="9.66152" x2="4.58413" y2="20.306" gradientUnits="userSpaceOnUse"><stop stop-color="#008996"></stop><stop offset="1" stop-color="#52E8C1"></stop></linearGradient><clipPath id="clip0_1790_78"><rect width="37" height="37" fill="white"></rect></clipPath></defs></svg>
+              <h4 className="bringsubTitle">Highly responsive support team - here for you.</h4>
+              <p className="bringparaB">Get expert help fast. Installers can get access to our dedicated support channel with an even higher priority support.</p>
+            </div>
+          </div>
+        </section>
 
-        {/* Contact Section */}
-        {/* <section id="products1" className="py-20 bg-secondary text-white text-center">
-          <h2 className="text-3xl font-bold">Contact Us</h2>
-          <p className="mt-4">Email: contact@example.com</p>
-        </section> */}
+        {/* product Section */}
+        <section id="products1" className="sections product text-center">
+          <h2 className="subtitle product">Buy 1Home products</h2>
+          <a href="#" target="_blank" className="bringLink">
+            <span className="bringSvgBG">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="#ffffff"></path></svg>
+            </span>
+            <span>Access partner pricing here</span>
+          </a>
+          <div className="productContent">
+
+            {/* Product Single */}
+            <a href="#" className="productSingle">
+              <img className="bigImageProduct" src="/assets/img/home1/pricing-server-knx.webp" alt="" />
+              <div className="proDtat">
+                <h3 className="pDtataInner">1Home Server</h3>
+                <h3 className="pDtataInner">KNX</h3>
+              </div>
+            </a>
+
+            {/* Product Single */}
+            <a href="#" className="productSingle">
+              <img className="bigImageProduct" src="/assets/img/home1/pricing-server-loxone.webp" alt="" />
+              <div className="proDtat">
+                <h3 className="pDtataInner">1Home Server</h3>
+                <h3 className="pDtataInner">Loxone</h3>
+              </div>
+            </a>
+
+            {/* Product Single */}
+            <a href="#" className="productSingle">
+              <img className="bigImageProduct" src="/assets/img/home1/pricing-bridge.webp" alt="" />
+              <div className="proDtat">
+                <h3 className="pDtataInner">1Home</h3>
+                <h3 className="pDtataInner">Bridge</h3>
+              </div>
+            </a>
+          </div>
+        </section>
       </div>
 
       

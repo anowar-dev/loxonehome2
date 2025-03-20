@@ -114,7 +114,7 @@ h1{
     margin-right: auto;
 }
 .sections{
-    padding: 5rem 0;
+    padding: 4rem 0;
     position: relative;
 }
 .sections.top{
@@ -128,15 +128,15 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
 } 
 .controllSingle{
     background: #E3F2F2;
-    padding: 1.5rem;
+    padding: 1.5rem .8rem;
     border-radius: 1.25rem;
-    height: 22rem;
+    height: 23rem;
     text-align: center;
 } 
 .contSubTitle{
@@ -231,7 +231,7 @@ h1{
 }
 .autoDataSingle{
     width: calc(50% - .5rem);
-    text-align-last: left;
+    text-align: left;
 }
 .autosubTitle{
     font-size: 1rem;
@@ -321,7 +321,7 @@ h1{
     justify-content: center;
     align-items: center;
     column-gap: .75rem;
-    margin-bottom: -2.5rem;
+    margin-bottom: -1.5rem;
     margin-top: 4rem;
 }
 .bringLink span{
@@ -334,4 +334,215 @@ h1{
     background: rgb(0, 137, 150);
     padding: .4rem;
     border-radius: 50%;
+}
+.bringContent{
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bringDataTop{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 1rem;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+}
+.bringSingle.left{
+    width: 60%;
+}
+.bringSingle.right{
+    width: calc(40% - 1rem);
+}
+.bringSingle{
+    text-align: left;
+    padding: 1rem;
+    border-radius: 1rem;   
+    background: #F5F5F5;
+    box-shadow: 0 0 1px #69C350;
+}
+.bringsubTitle{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(13, 17, 22);
+    font-family: 'Inter', sans-serif;
+    margin-bottom: .6rem;
+    margin-top: .6rem;
+}
+.bringparaBottom{
+    font-size: .9rem;
+    font-weight: 400;
+    color: rgb(13, 17, 22);
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+.bringSingle svg{
+    width: 2rem;
+    height: 2rem;
+}
+.subtitle.blazing{
+    margin-bottom: 5rem;
+}
+.sections.blazing{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.01);
+}
+#products1 .bringLink{
+    margin-bottom: unset;
+    margin-top: unset;
+}
+.subtitle.product{
+    margin-bottom: 1.5rem;
+}
+.productContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.productSingle{
+    width: calc(33% - 1rem);
+    max-width: 14rem;
+    text-align: left;
+    padding: .7rem 1rem;
+    border-radius: 1rem;   
+    background: #F5F5F5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .7rem;
+    transition: 1s ease;
+    box-shadow: 0 0 1px #69C350;
+}
+.productSingle img{
+    width: 30%;
+}
+.pDtataInner{
+    font: 1rem sans-serif;
+    font-weight: 600;
+    color: rgb(13, 17, 22);
+    line-height: 1.6rem;
+}
+.productSingle:hover{
+    background: #E3F2F2;
+}
+.sections.product{
+    background: rgba(0, 0, 0, 0.01);
+}
+
+/* mobile responsive css */
+@media (max-width: 1024px) {
+    .controllImages{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .controllSingle{
+        width: 31%;
+        height: 25rem;
+    }
+    .autoContent{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .autoImage{
+        width: 100%;
+    }
+    .autoImage img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .autoData{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .autoDataSingle{
+        text-align: center;
+    }
+    .autoDataSingle svg{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .autosubTitle{
+        text-align: center;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .autosubpara{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 220px;
+        font-size: 1.1rem;
+    }
+    .bringDataTop{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .bringSingle.left{
+        width: 100%;
+    }
+    .bringSingle.right{
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .subtitle{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title{
+        font-size: 2.375rem;
+    }
+    .productContent{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .productSingle{
+        width: 100%;
+        max-width: 17rem;
+    }
+    .autoDataSingle{
+        width: 100%;
+    }
+    .controllSingle{
+        width: 100%;
+        max-width: 19rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+    }
+    .buttons{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .buynowlinik{
+        width: 100%;
+    }
+    .sections{
+        padding: 2.5rem 0;
+    }
+    .bringDatabottom{
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .bdbs{
+        text-align: center;
+        width: 100%;
+    }
+    .bringparabottom{
+        max-width: 100%;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
 }
