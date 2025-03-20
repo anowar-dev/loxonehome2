@@ -45,11 +45,11 @@ const Header = () => {
             </div>
 
             {/* Second row: Topbar with Logo and Navigation */}
-            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center sm:px-4 pb-4">
+            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center sm:px-4 pb-4 md:mr-20">
                 {/* Left: Logo */}
                 <Link href="/"><img src="/assets/img/logo.png" className="text-3xl font-bold text-primary mb-2 sm:mb-3 cursor-pointer max-h-[80px]" height="100px" /></Link>
                 {/* Right: Navigation Links */}
-                <nav className="flex space-x-8">
+                <nav className="flex space-x-5 md:space-x-8 md:mr-10 lg:mr-0">
                     <Link href="/" className="text-light hover:text-primary transition">
                         Home
                     </Link>
